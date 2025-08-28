@@ -1,36 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz-App</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-    <nav class="navbar">
-        <div class = "container">
-            <div class="imageContainer">
-                <img  class = "image"src="https://t3.ftcdn.net/jpg/05/32/73/04/360_F_532730425_EiwrFXiBgzIedTDr44MBmYsxYZ0opAnK.jpg" alt="Quiz-App Logo">
-            </div>
-            <div class="headings">
-               <a href="#">Home</a>
-               <a href="#">Quiz</a>
-               <a href="#">Contact</a>
-            </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar" id="navbar">
+      <div class="container">
+        <div class="imageContainer">
+          <img
+            class="image"
+            src="https://t3.ftcdn.net/jpg/05/32/73/04/360_F_532730425_EiwrFXiBgzIedTDr44MBmYsxYZ0opAnK.jpg"
+            alt="Quiz-App Logo"
+          />
         </div>
+        <div class="headings">
+          <a href="#main-section">Home</a>
+          <a href="#quiz-section">Quiz</a>
+          <a href="#contact-section">Contact</a>
+        </div>
+      </div>
     </nav>
 
-    <section style="background-color: lime;">
-        <h1 class="description">Welcome to the Quiz App! Test your knowledge across different topics with fun and interactive quizzes. Challenge yourself, track your scores, and keep improving every time you play.</h1>
-        <div class="button-container">
-            <button class="quiz-button">QUIZ</button>
-        </div>
+    <section class="main-section" id="main-section">
+      <h1 class="description">
+        Welcome to the Quiz App! Test your knowledge across different topics
+        with fun and interactive quizzes. Challenge yourself, track your scores,
+        and keep improving every time you play.
+      </h1>
+      <div class="button-container">
+        <button class="quiz-button">QUIZ</button>
+      </div>
     </section>
 
-    
+    <section class="quiz-section" id="quiz-section">
+      <div class="container1">
+        <div class="quiz-container-01" id="html-css-js-quiz">
+          <div class="quiz-container-1" id="html-quiz">
+            <h2 class="quiz-heading">HTML Quiz</h2>
+            <p class="quiz-description">
+              Test your HTML knowledge with this fun quiz!
+            </p>
+            <button class="start-quiz-button">Start Quiz</button>
+          </div>
 
+          <div class="quiz-container-1" id="css-quiz">
+            <h2 class="quiz-heading">CSS Quiz</h2>
+            <p class="quiz-description">
+              Test your CSS knowledge with this fun quiz!
+            </p>
+            <button class="start-quiz-button">Start Quiz</button>
+          </div>
 
+          <div class="quiz-container-1" id="js-quiz">
+            <h2 class="quiz-heading">JavaScript Quiz</h2>
+            <p class="quiz-description">
+              Test your JavaScript knowledge with this fun quiz!
+            </p>
+            <button class="start-quiz-button">Start Quiz</button>
+          </div>
+        </div>
 
-</body>
+        <div class="quiz-container-01" id="react-node--mongo-quiz">
+          <div class="quiz-container-1" id="react-quiz">
+            <h2 class="quiz-heading">React Quiz</h2>
+            <p class="quiz-description">
+              Test your React knowledge with this fun quiz!
+            </p>
+            <button class="start-quiz-button">Start Quiz</button>
+          </div>
+
+          <div class="quiz-container-1" id="node-quiz">
+            <h2 class="quiz-heading">Node.js Quiz</h2>
+            <p class="quiz-description">
+              Test your Node.js knowledge with this fun quiz!
+            </p>
+            <button class="start-quiz-button">Start Quiz</button>
+          </div>
+
+          <div class="quiz-container-1" id="mongo-quiz">
+            <h2 class="quiz-heading">MongoDB Quiz</h2>
+            <p class="quiz-description">
+              Test your MongoDB knowledge with this fun quiz!
+            </p>
+            <button class="start-quiz-button">Start Quiz</button>
+          </div>
+        </div>
+
+        <div class="quiz-container-01" id="express-bootstrap-dbms-quiz">
+          <div class="quiz-container-1" id="express-quiz">
+            <h2 class="quiz-heading">Express.js Quiz</h2>
+            <p class="quiz-description">
+              Test your Express.js knowledge with this fun quiz!
+            </p>
+            <button class="start-quiz-button">Start Quiz</button>
+          </div>
+
+          <div class="quiz-container-1" id="bootstrap-quiz">
+            <h2 class="quiz-heading">Bootstrap Quiz</h2>
+            <p class="quiz-description">
+              Test your Bootstrap knowledge with this fun quiz!
+            </p>
+            <button class="start-quiz-button">Start Quiz</button>
+          </div>
+
+          <div class="quiz-container-1" id="dbms-quiz">
+            <h2 class="quiz-heading">DBMS Quiz</h2>
+            <p class="quiz-description">
+              Test your DBMS knowledge with this fun quiz!
+            </p>
+            <button class="start-quiz-button">Start Quiz</button>
+          </div>
+        </div>
+
+        <div class="quiz-container-01" id="dsa--quiz">
+          <div class="quiz-container-1" id="dsa-quiz">
+            <h2 class="quiz-heading">DSA Quiz</h2>
+            <p class="quiz-description">
+              Test your DSA knowledge with this fun quiz!
+            </p>
+            <button class="start-quiz-button">Start Quiz</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact-section">
+      <div class="contact-container">
+        <h2 class="contact-heading">Contact Us</h2>
+        <p class="contact-description">
+          If you have any questions or feedback, feel free to reach out!
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <p class="footer-text">© 2025 Quiz App. All rights reserved.</p>
+      </div>
+      <div class="footer-icons">
+        <a href="https://github.com/Mudit-Tarway/Quiz-App" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.youtube.com/channel/yourchannel" target="_blank">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+      </div>
+    </footer>
+
+  </body>
 </html>
