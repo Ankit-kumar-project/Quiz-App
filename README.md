@@ -52,7 +52,7 @@ Frontend: HTML, CSS, JavaScript
 
 UpQuiz
   |--Quiz_page<br>
-       |-- quiz.html<br>
+       \n |-- quiz.html<br>
        |-- quiz.css<br>
        |-- media.css<br>
        |-- quiz.js<br>
