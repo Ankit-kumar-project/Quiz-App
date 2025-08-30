@@ -1,6 +1,6 @@
 # Quiz-App
 Online Quiz Practice Platform
-Overview
+**Overview**
 
 This is a static web application designed to help learners practice and improve their skills across multiple subjects. The platform generates random questions for various topics, providing an interactive way to test knowledge and enhance learning.
 
@@ -34,7 +34,7 @@ Static Web Page: Easy to host on GitHub Pages or any static hosting service.
 
 User-Friendly Interface: Simple and clean UI for smooth navigation and practice.
 
-How It Works
+**How It Works**
 
 The user opens the web page.
 
@@ -44,35 +44,40 @@ Users answer the questions and receive instant feedback (if implemented).
 
 Users can refresh or retry to get new questions each time.
 
-Tech Stack
+**Tech Stack**
 
 Frontend: HTML, CSS, JavaScript
 
-Folder Structure
+**Folder Structure**
 
-UpQuiz
-  |--Quiz_page
-       |-- quiz.html
-       |-- quiz.css
-       |-- media.css
-       |-- quiz.js
-  |--description
-      |-- description.html
-      |-- description.css
-      |-- media.css
-      |-- description.js
-  |--images
-       |-- UpQuiz.png
-       |-- background.jpg
-       |-- image.jpeg
-  |--questions
-       |-- questions.js
-  |--index.html
-  |--style.css
-  |--script.js
+UpQuiz<br>
+  |-- quiz_page<br>
+  |     &emsp;&emsp;|-- quiz.html <br>
+  |     &emsp;&emsp;|-- quiz.css <br>
+  |     &emsp;&emsp;|-- media.css <br>
+  |     &emsp;&emsp;|-- quiz.js <br>
+  |<br>
+  |-- description <br>
+  |     &emsp;&emsp;|-- description.html <br>
+  |     &emsp;&emsp;|-- description.css <br>
+  |     &emsp;&emsp;|-- media.css <br>
+  |     &emsp;&emsp;|-- description.js <br>
+  |<br>
+  |-- images<br>
+  |     &emsp;&emsp;|-- UpQuiz.png <br>
+  |     &emsp;&emsp;|-- background.jpg <br>
+  |     &emsp;&emsp;|-- image.jpeg <br>
+  |<br>
+  |-- questions <br>
+  |     &emsp;&emsp;|-- questions.js <br>
+  |<br>
+  |-- index.html <br>
+  |-- style.css <br>
+  |-- script.js <br>
 
 
-Usage
+
+**Usage**
 
 Open the index.html file in a web browser to start the quiz.
 
