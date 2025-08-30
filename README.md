@@ -87,7 +87,7 @@ Practice, learn, and improve your coding and theoretical knowledge.
 
 Glimpses of our Website 
 
-![LANDING PAGE](<Screenshot 2025-08-30 230143.png>) ![MARKING SCHEMA OF THE QUIZ](<Screenshot 2025-08-30 230318.png>) ![QUIZ PAGE](<Screenshot 2025-08-30 230330.png>) ![RESULT PAGE](<Screenshot 2025-08-30 230342.png>)
+![LANDING PAGE] https://drive.google.com/file/d/1HFvPat_soyUy7QaEqYcPD2HMmMf1sDlO/view?usp=sharing ![MARKING SCHEMA OF THE QUIZ] https://drive.google.com/file/d/19TiousF8mDZtQf_ni43z8tTkq5YJKv4K/view?usp=sharing ![QUIZ PAGE] https://drive.google.com/file/d/1ZR00FFhWXiyiLk5iUKvIgdDNtOAVpNp7/view?usp=sharing ![RESULT PAGE] https://drive.google.com/file/d/1cMlfS-i3Td6NinDUrNyp-Zg3UesA15jz/view?usp=sharing
 
 Future Enhancements
 
