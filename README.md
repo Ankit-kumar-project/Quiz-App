@@ -50,7 +50,7 @@ Frontend: HTML, CSS, JavaScript
 
 **Folder Structure**
 
-UpQuiz
+UpQuiz<br>
   |-- quiz_page<br>
   |     &emsp;|-- quiz.html <br>
   |     &emsp;|-- quiz.css <br>
