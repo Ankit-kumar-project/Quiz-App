@@ -1,6 +1,6 @@
 # Quiz-App
 Online Quiz Practice Platform
-Overview
+**Overview**
 
 This is a static web application designed to help learners practice and improve their skills across multiple subjects. The platform generates random questions for various topics, providing an interactive way to test knowledge and enhance learning.
 
@@ -34,7 +34,7 @@ Static Web Page: Easy to host on GitHub Pages or any static hosting service.
 
 User-Friendly Interface: Simple and clean UI for smooth navigation and practice.
 
-How It Works
+**How It Works**
 
 The user opens the web page.
 
@@ -44,11 +44,11 @@ Users answer the questions and receive instant feedback (if implemented).
 
 Users can refresh or retry to get new questions each time.
 
-Tech Stack
+**Tech Stack**
 
 Frontend: HTML, CSS, JavaScript
 
-Folder Structure
+**Folder Structure**
 
 UpQuiz
   |--Quiz_page
@@ -72,7 +72,7 @@ UpQuiz
   |--script.js
 
 
-Usage
+**Usage**
 
 Open the index.html file in a web browser to start the quiz.
 
