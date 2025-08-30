@@ -1,0 +1,105 @@
+/* Media Query for mobile */
+@media screen and (max-width: 768px) {
+
+    /*changes made for body */
+    body {
+        height: auto; 
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 15px;
+    }
+
+    /* For slide bar which Contain Question  */
+    .pointer {
+        width: 95%;
+        height: auto;
+        margin: 10px 0;
+        padding: 15px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #heading {
+        font-size: 26px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #question-pointers {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    #question-pointers li {
+        font-size: 18px;
+        padding: 6px 12px;
+        margin: 5px;
+    }
+
+    /* Main Question Area */
+    .question {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+        padding: 20px;
+        text-align: left; 
+    }
+
+    #question-text {
+        font-size: 20px;
+        margin: 20px 0;
+        width: auto;
+        max-width: 100%;
+        word-wrap: break-word;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    #timer {
+        font-size: 18px;
+        margin-bottom: 20px;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    /* For Option Button */
+    .option-btn {
+        width: 95%;
+        font-size: 16px;
+        padding: 12px;
+        margin: 10px auto;
+        text-align: left; /* Align option text to the left */
+    }
+
+    /* For Attempt Portion */
+    .attempt-status {
+        width: 95%;
+        height: auto;
+        padding: 15px;
+        margin: 10px 0 30px 0;
+        font-size: 16px;
+        text-align: left;
+    }
+
+    For Quiz complition Part
+    #Quiz {
+        font-size: 24px;
+        margin: 20px 0;
+    }
+
+    #resultChart {
+        width: 200px !important;
+        height: 200px !important;
+        margin: 20px auto;
+    }
+
+    .result {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+}

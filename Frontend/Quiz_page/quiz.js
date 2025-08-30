@@ -76,14 +76,14 @@ if (!selectedQuiz) {
   clearInterval(timerInterval);
 
   // Calculate percentage
-  let percentage = Math.round((score / selectedQuiz.questions.length) * 100);
+  let percentage = Math.round((score *4 / selectedQuiz.questions.length) * 100);
 
   document.querySelector(".question").innerHTML = `
-    <h2>🎉 Quiz Completed!</h2>
+    <h2 id="Quiz">🎉 Quiz Completed!</h2>
     <div style="display:flex; flex-direction:column; align-items:center; gap:10px; margin-top:20px;">
-      <canvas id="resultChart" width="150" height="150"></canvas>
-      <p><strong>Your Score:</strong> ${score} / ${selectedQuiz.questions.length}</p>
-      <p><strong>Percentage:</strong> ${percentage}%</p>
+      <canvas id="resultChart" ></canvas>
+      <p class="result"><strong>Your Score:</strong> ${score *4} / ${selectedQuiz.questions.length*4}</p>
+      <p class="result"><strong>Percentage:</strong> ${percentage/4}%</p>
     </div>
   `;
 
@@ -92,18 +92,32 @@ if (!selectedQuiz) {
   new Chart(ctx, {
     type: "doughnut",
     data: {
-      labels: ["Correct", "Wrong"],
+      labels: ["Correct", "Wrong"], 
       datasets: [{
         data: [score, selectedQuiz.questions.length - score],
-        backgroundColor: ["#065f09ff", "#F44336"], // green, red
+        backgroundColor: ["#0ff507ff", "#ff0808ff"], // green, red
         borderWidth: 2
       }]
     },
     options: {
+      layout: {
+    padding: {
+      top: 10  // 👈 adds 10px space at the top
+    }
+  },
       responsive: false,   // keep fixed size
-      cutout: "60%",       // makes the ring thinner (circle looks smaller)
+      cutout: "75%",       // makes the ring thinner (circle looks smaller)
       plugins: {
-        legend: { position: "bottom" },
+        legend: {
+        position: "bottom",
+        labels: {
+          boxWidth: 40,
+          boxHeight: 30,
+          padding: 20,
+          font: { size: 14 ,}
+          
+        }
+      },
         tooltip: { enabled: true }
       }
     }

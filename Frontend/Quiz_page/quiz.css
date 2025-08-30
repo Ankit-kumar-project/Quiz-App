@@ -125,3 +125,30 @@ body {
   justify-content: center;
   gap: 10px;
 }
+
+/* Styling for result and end of Quiz */
+
+/* style for Quiz Completed h1 tag  */
+#Quiz{
+    margin-top : 30px;
+    margin-bottom: 50px;
+    color: rgb(172, 255, 238);
+    font-size: 30px;
+}
+
+/* Style for Chart */
+#resultChart{
+    height: 250px;
+    width: 250px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+
+}
+
+
+.result,strong{
+    color:rgb(236, 239, 241);
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 30px;
+}
