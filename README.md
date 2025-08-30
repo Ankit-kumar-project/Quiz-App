@@ -52,25 +52,25 @@ Frontend: HTML, CSS, JavaScript
 
 UpQuiz<br>
   |-- quiz_page<br>
-  |     &emsp;|-- quiz.html <br>
-  |     &emsp;|-- quiz.css <br>
-  |     &emsp;|-- media.css <br>
-  |     &emsp;|-- quiz.js <br>
-  |
+  |     &emsp;&emsp;|-- quiz.html <br>
+  |     &emsp;&emsp;|-- quiz.css <br>
+  |     &emsp;&emsp;|-- media.css <br>
+  |     &emsp;&emsp;|-- quiz.js <br>
+  |<br>
   |-- description <br>
-  |     &emsp;|-- description.html <br>
-  |     &emsp;|-- description.css <br>
-  |     &emsp;|-- media.css <br>
-  |     &emsp;|-- description.js <br>
-  |
+  |     &emsp;&emsp;|-- description.html <br>
+  |     &emsp;&emsp;|-- description.css <br>
+  |     &emsp;&emsp;|-- media.css <br>
+  |     &emsp;&emsp;|-- description.js <br>
+  |<br>
   |-- images<br>
-  |     &emsp;|-- UpQuiz.png <br>
-  |     &emsp;|-- background.jpg <br>
-  |     &emsp;|-- image.jpeg <br>
-  |
+  |     &emsp;&emsp;|-- UpQuiz.png <br>
+  |     &emsp;&emsp;|-- background.jpg <br>
+  |     &emsp;&emsp;|-- image.jpeg <br>
+  |<br>
   |-- questions <br>
-  |     &emsp;|-- questions.js <br>
-  |
+  |     &emsp;&emsp;|-- questions.js <br>
+  |<br>
   |-- index.html <br>
   |-- style.css <br>
   |-- script.js <br>
