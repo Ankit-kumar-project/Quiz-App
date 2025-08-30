@@ -51,25 +51,30 @@ Frontend: HTML, CSS, JavaScript
 **Folder Structure**
 
 UpQuiz
-  |--Quiz_page<br>
-       \n |-- quiz.html<br>
-       |-- quiz.css<br>
-       |-- media.css<br>
-       |-- quiz.js<br>
-  |--description<br>
-      |-- description.html<br>
-      |-- description.css<br>
-      |-- media.css<br>
-      |-- description.js<br>
-  |--images<br>
-       |-- UpQuiz.png
-       |-- background.jpg
-       |-- image.jpeg
-  |--questions<br>
-       |-- questions.js<br>
-  |--index.html<br>
-  |--style.css<br>
-  |--script.js<br>
+  |-- quiz_page
+  |     |-- quiz.html
+  |     |-- quiz.css
+  |     |-- media.css
+  |     |-- quiz.js
+  |
+  |-- description
+  |     |-- description.html
+  |     |-- description.css
+  |     |-- media.css
+  |     |-- description.js
+  |
+  |-- images
+  |     |-- UpQuiz.png
+  |     |-- background.jpg
+  |     |-- image.jpeg
+  |
+  |-- questions
+  |     |-- questions.js
+  |
+  |-- index.html
+  |-- style.css
+  |-- script.js
+
 
 
 **Usage**
